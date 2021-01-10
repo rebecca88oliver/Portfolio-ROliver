@@ -5,33 +5,41 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
+import photoshop from "./images/photoshop.svg"
+import illustrator from "./images/illustrator.svg"
+import mysql from "./images/mysql.svg"
+import api from "./images/api.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedin from "./images/linkedin.svg"
+import freeCode from "./images/freecode.svg"
+
+
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Rebecca Oliver",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Full Stack Web Development,",
     //Line 2 For Header
-    "products, brands,",
+    "Psych Driven Web Design,",
     //Line 3 For Header
-    "and experience",
+    "Digital Media Design",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Rebecca Oliver is .... ",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "rebecca88oliver@gmail.com",
 
   // End Header Details -----------------------
 
@@ -39,9 +47,9 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Kitten Helper", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Web/Mobile app made with ReactJS", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
@@ -50,45 +58,45 @@ export default {
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Homework Helper", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A Javascript web app. A collaborative project.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://github.com/rebecca88oliver/Updated-Portfolio/blob/master/Assets/homeworkHelper1.png?raw=true",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://vscacchitti.github.io/HomeworkHelper/",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Pretty Password Generator", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Simple widget for websites to generate suggested passwords.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://raw.githubusercontent.com/rebecca88oliver/Updated-Portfolio/master/Assets/password-generator.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://rebecca88oliver.github.io/Pretty-Password/",
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Pretty Weather Dashboard", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "An asthetically pleasing weather web app built using a free weather API.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://github.com/rebecca88oliver/Updated-Portfolio/blob/master/Assets/weatherDash.png?raw=true",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://rebecca88oliver.github.io/Weather_Map/",
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "Enterprise Solutions MySQL Database", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A custom database maker.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://github.com/rebecca88oliver/Updated-Portfolio/blob/master/Assets/inventory1.PNG?raw=true",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
@@ -139,37 +147,61 @@ export default {
       id: 1,
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "HTML5",
     },
     {
       id: 2,
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS",
     },
     {
       id: 3,
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Javascript",
     },
     {
       id: 4,
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "React JS",
     },
     {
       id: 5,
       img: designIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Psych Driven Design",
     },
     {
       id: 6,
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Test Driven Development",
+    },
+    {
+      id: 7,
+      img: mysql,
+      para:
+        "MySQL & Mongo DB",
+    },
+    {
+      id: 8,
+      img: api,
+      para:
+        "JSON, API's & AJAX",
+    },
+    {
+      id: 9,
+      img: illustrator,
+      para:
+        "Adobe Illustrator",
+    },
+    {
+      id: 10,
+      img: photoshop,
+      para:
+        "Adobe Photoshop",
     },
   ],
 
@@ -184,21 +216,21 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/rebecca88oliver" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+      img: linkedin,
+      url: "https://www.linkedin.com/in/rebecca-oliver-819aa21a7/",
     },
     {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      img: freeCode,
+      url: "https://www.freecodecamp.org/rebecca88oliver",
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/rebeccaoliverphoto",
     },
   ],
 
