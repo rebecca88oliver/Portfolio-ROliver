@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-template",
   "homepage": "https://rebecca88oliver.github.io/Portfolio-ROliver",
-  "private": true,
+  "private": false,
   "description": "portfolio-resume",
   "version": "0.1.0",
   "author": "Rebecca Oliver",
@@ -38,7 +38,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
